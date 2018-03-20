@@ -2,8 +2,10 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 var express = require('express');
 var app = express();
+/*
 const { Client } = require('pg');
 const client = new Client();
+*/
 
 app.set('port', (process.env.PORT || 5000));
 
