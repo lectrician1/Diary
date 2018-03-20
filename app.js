@@ -5,6 +5,12 @@ var app = express();
 const { Client } = require('pg');
 const client = new Client();
 
+app.set('port', (process.env.PORT || 5000));
+
+app.listen(app.get('port'), function() {
+  console.log('Node app is running on port', app.get('port'));
+});
+
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
 });
