@@ -3,25 +3,11 @@
   "description": "A Discord Bot",
   "main": "app.js",
   "version": "0.1",
-  "contributors": [
-    {
-      "name": "Seth Deegan",
-      "email": "",
-      "web": ""
-    }
-  ],
   "scripts": {
     "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "discord.js": "11.3.2",
-    "express": "4.16.3"
+    "discord.js": "11.3.2"
   },
-  "licenses": [
-    {
-      "name": "MIT License",
-      "url": "https://opensource.org/licenses/MIT"
-    }
-  ]
 }
