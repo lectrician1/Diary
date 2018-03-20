@@ -1,8 +1,5 @@
-
 {
-  "name": "Bot",
-  "version": "1.0.0",
-  "description": "",
+  "description": "A Discord Bot",
   "main": "app.js",
   "dependencies": {
     "discord.js": "^11.3.2"
@@ -13,5 +10,13 @@
   },
   "keywords": [],
   "author": "Seth Deegan",
-  "license": "ISC"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lectrician1/diary.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lectrician1/diary/issues"
+  },
+  "homepage": "https://github.com/lectrician1/diary#readme"
 }
